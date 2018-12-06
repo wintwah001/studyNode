@@ -10,7 +10,7 @@ var usersRouter = require('./routes/users');
 var postRouter=require('./routes/post');
 
 var app = express();
-mongoose.connect('mongodb://wintwahtun:wintwah77@ds013495.mlab.com:13495/studynode');
+mongoose.connect('mongodb://wintwah112:wintwah112@ds013495.mlab.com:13495/studynode');
 var db = mongoose.connection;
 db.on('error',console.error.bind(console,'MongoDB connection error:'));
 
